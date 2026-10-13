@@ -98,6 +98,12 @@ jobs:
             echo "$key_value_pair" >> $GITHUB_ENV
           done
       - run: sudo apt-get install -y jq curl git
+
+      - name: Pre-download Pixincreate Magisk v31.0-3
+        run: |
+          mkdir -p .tmp
+          curl --fail -sLo .tmp/pixincreate-v31.0-3.apk "https://github.com/pixincreate/Magisk/releases/download/v31.0-3/Magisk-v31.0-3.apk"
+      
       - name: release
         env:
           PASSPHRASE_AVB: ${{ secrets.PASSPHRASE_AVB }}
