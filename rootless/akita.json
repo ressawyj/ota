@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/ressawyj/ota/releases/download/2026111301/akita-2026111301-9d74ad2-rootless.zip",
-    "location_csig": "https://github.com/ressawyj/ota/releases/download/2026111301/akita-2026111301-9d74ad2-rootless.zip.csig"
+    "location_ota": "https://github.com/ressawyj/ota/releases/download/2026111801/akita-2026111801-5cc4fc0-rootless.zip",
+    "location_csig": "https://github.com/ressawyj/ota/releases/download/2026111801/akita-2026111801-5cc4fc0-rootless.zip.csig"
   }
 }
